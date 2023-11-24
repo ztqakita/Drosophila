@@ -26,7 +26,6 @@ left_right_regions = ['AME', 'LA', 'LO', 'LOP', 'ME',       # Optic lobe: Visual
 Exc_nt_type = ['ACH', 'DA', 'OCT', 'SER']
 Inh_nt_type = ['GABA', 'GLU']
 
-bp.dnn.CSRLinear
 
 class Exponential(bp.Projection):
   def __init__(self, pre, post, conn, syn_counts, pre_E, tau=5., delay=None):
